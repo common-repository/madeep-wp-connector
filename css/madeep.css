@@ -1,0 +1,161 @@
+.madeepStars::before{
+    content: "★";
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    color: #ffc733;
+}
+/*Hotel-1*/
+.hotel1.madeepContainer{
+    width: 100%;
+    display:inline-block;
+    float: left;
+}
+
+.hotel1.madeepContainer > .McolL,.hotel1.madeepContainer > .McolR{
+    width:100%;
+    height: auto;
+    display:inline-block;
+    float: left;
+}
+
+.hotel1.madeepContainer h3{
+    font-size: 20px;
+}
+.hotel1.madeepContainer h5{
+    font-size: 10px;
+}
+.hotel1.madeepContainer .space{
+    display:inline-block;
+    float:left;
+    width:100%;
+    height: 30px;
+    content: '&nbsp;';
+}
+.hotel1.madeepContainer > .McolL > .madeepHotelMap{
+    height: 300px;
+    width: 100%;
+}
+.hotel1.madeepContainer > .McolL > .hotelName > .structureType{
+    font-size: 10px;
+}
+
+/*Service-1*/
+.service1.madeepContainer{
+    width: 100%;
+    display:inline-block;
+    float: left;
+}
+
+.service1.madeepContainer > .McolL,.service1.madeepContainer > .McolR{
+    width:100%;
+    height: auto;
+    display:inline-block;
+    float: left;
+}
+
+.service1.madeepContainer h3{
+    font-size: 20px;
+}
+.service1.madeepContainer h5{
+    font-size: 10px;
+}
+.service1.madeepContainer .space{
+    display:inline-block;
+    float:left;
+    width:100%;
+    height: 30px;
+    content: '&nbsp;';
+}
+.service1.madeepContainer > .McolL > .madeepHotelMap{
+    height: 300px;
+    width: 100%;
+}
+.service1.madeepContainer > .McolL > .hotelName > .structureType{
+    font-size: 10px;
+}
+
+/*Ecom-1*/
+.ecom1.madeepContainer{
+    width: 100%;
+    display:inline-block;
+    float: left;
+}
+
+.ecom1.madeepContainer > .McolL{
+    width:100%;
+    height: auto;
+    display:inline-block;
+    float: left;
+}
+
+.ecom1.madeepContainer h3{
+    font-size: 20px;
+}
+.ecom1.madeepContainer h5{
+    font-size: 10px;
+}
+.ecom1.madeepContainer .space{
+    display:inline-block;
+    float:left;
+    width:100%;
+    height: 30px;
+    content: '&nbsp;';
+}
+.ecom1.madeepContainer > .McolL > .madeepHotelMap{
+    height: 300px;
+    width: 100%;
+}
+.ecom1.madeepContainer > .McolL > .hotelName > .structureType{
+    font-size: 10px;
+}
+
+/*List-1*/
+.list1.madeepContainer{
+    width: 100%;
+    display:inline-block;
+    float: left;
+}
+
+.list1.madeepContainer > .madeepListImage{
+    float: left;
+    display: inline-block;
+    min-height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+.list1.madeepContainer > .madeepListContent{
+    float: left;
+    display: inline-block;
+    min-height: 150px;
+    width: 100%;
+}
+
+.list1.madeepContainer > .madeepListContent > .hotelName > a > .structureType{
+    font-size: 10px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .hotel1.madeepContainer > .McolL{
+        width:70%;
+    }
+    .hotel1.madeepContainer > .McolR{
+        width:30%;
+        float: right;
+    }
+
+    .list1.madeepContainer > .madeepListImage{
+        float: left;
+        display: inline-block;
+        min-height: 150px;
+        width: 20%;
+    }
+    .list1.madeepContainer > .madeepListContent{
+        float: left;
+        display: inline-block;
+        min-height: 150px;
+        width: 80%;
+    }
+}

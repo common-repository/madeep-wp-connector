@@ -1,0 +1,17 @@
+{
+    "hotel": "Hotel",
+    "residence": "Residence",
+    "appartments": "Appartamenti",
+    "bed_and_breakfast": "B&B",
+    "farmhouse": "Agriturismo",
+    "room_rental": "Affitta camere",
+    "refuge": "Rifugio",
+    "hostel": "Ostello",
+    "vacation_house": "Casa vacanze",
+    "camping": "Campeggio",
+    "chalet": "Baita",
+    "touristic_village": "Villaggio turistico",
+    "villa": "Villa",
+    "stars": "Stelle",
+    "structureFormat": "%type %starsN %stars"
+}

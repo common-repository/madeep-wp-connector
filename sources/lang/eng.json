@@ -1,0 +1,17 @@
+{
+    "hotel": "Hotel",
+    "residence": "Residence",
+    "appartments": "Appartments",
+    "bed_and_breakfast": "B&B",
+    "farmhouse": "Farmhouse",
+    "room_rental": "Room rental",
+    "refuge": "Refuge",
+    "hostel": "Hostel",
+    "vacation_house": "Vacation house",
+    "camping": "Camping",
+    "chalet": "Chalet",
+    "touristic_village": "Touristic village",
+    "villa": "Villa",
+    "stars": "Stars",
+    "structureFormat": "%starsN %stars %type"
+}
